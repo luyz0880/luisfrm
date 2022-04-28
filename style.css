@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin-top: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+body{
+  background-image: url("form1.jpeg");
+  background-position: 0%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inicio h2{
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: 30px;
+}
+
+
+.inicio p{
+    text-align:center;
+    color: rgb(193, 191, 191);
+    font-size: 20px;
+    margin: 15px;
+}
+
+.form input{
+  border-radius: 4px;
+}
+
+
+
+.form{
+  padding: 10px;
+  background-color: rgba(27, 27, 50, 0.8);
+}
+
+.form label{
+  color: white;
+}
+
+.form input{
+  border-radius: 5px;
+}
+
+
+
+.form ::-webkit-input-placeholder  {
+ padding-right: 90%;
+}
+
+.um ::-webkit-input-placeholder  {
+  padding-right: 80%;
+}
+
+.um input{
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+}
+
+.dois input{
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+}
+
+.tres input{
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+}
+
+.um label{
+  padding-right:63%;
+  font-size: 20px;
+}
+
+.dois label{
+  font-size: 20px;
+  padding-right: 63%;
+}
+
+.tres label{
+  font-size: 20px;
+  padding-right: 55%;
+}
+
+ 
+.datalist input{
+  width: 70%;
+  height: 30px;
+}
+
+.datalist p{
+  font-size: 20px;
+  padding-right: 18%;
+  color: white;
+}
+
+.option p{
+  font-size: 20px;
+  color: white;
+  padding-right: 12%;
+}
+
+.option li{
+  font-size: 20px;
+   display: flex;
+   padding-left: 15%;
+}
+
+
+.datalist ::-webkit-input-placeholder {
+   padding-right: 85%;
+}
+
+.scolher p{
+  font-size: 18px;
+  color: white;
+  padding-right: 20%;
+}
+
+.scolher input{
+  width: 70%;
+  height: 30px;
+}
+
+.scolher ::-webkit-input-placeholder  {
+  padding-right: 80%;
+}
+
+
+.finals p{
+  font-size: 17px;
+  color: white;
+  padding-right: 14%;
+}
+
+
+.finals li{
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  padding-left: 15%;
+}
+
+
+.fins p{
+  color: white;
+padding-right: 45%;
+}
+
+
+.fins button{
+  color: white;
+  background-color: rgb(7, 173, 65);
+  height: 35px;
+  border: solid 1px rgb(7, 173, 65);
+  border-radius: 2px;
+  width: 50%;
+
+}
+
+

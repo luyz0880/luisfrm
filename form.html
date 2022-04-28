@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="shortcut icon" href="Formulários.png" type="image/x-icon">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <title>FCC:Survey Form</title>
+</head>
+
+
+<body>
+
+<header class="inicio">
+        <h2>freeCodeCamp Survey Form 
+        <p>Thank you for taking the time to help us improve the platform</p> 
+        </h2>
+        
+</header><!--inicio-->
+
+
+
+<form style="border-style: solid 2px ;  display: inline-block; width: 60%;  border-radius: 7px;" class="form">
+
+        <div class="um">
+            <label>Name</label>
+            <br>
+            <input id="teste" name="name"type="text" required  placeholder="enter your name"> <br><br>
+       </div><!--1-->
+
+            <div class="dois">
+            <label> Gmail</label>
+            <br>
+            <input type="text" id="gmail" placeholder="gmail"  required> <br><br>
+            </div><!--2-->
+           
+            <div class="tres">
+            <label>Age(optional</label>
+            <br>
+            <input id="age" type="text" placeholder="age">
+            </div><!--3-->
+
+            <div class="datalist">
+            <p>Which option best describes your curent role?</p>
+            <br>
+            <input type="text"  placeholder="select" list="select"/> 
+
+            <datalist id="select">
+        
+               <option value="student">student</option>
+               <option value="full time job">full time job</option>
+               <option value="full time learner">full time learner</option>
+               <option value="peter not to say">peter not to say</option>
+               <option value="other">other</option>
+        
+            </datalist>
+        </div><!--datalist-->
+        <br>
+        <div class="option">
+             <p>Would you recommend freeCodeCamp to a friend?</p>
+                <li>
+               <span><input checked type="radio" name="friend" value="Definitely"></span> 
+                <label>Definitely</label>
+                </li>
+
+                <li><span><input type="radio"  name="friend" value="Maybe"></span>
+                <label>Maybe</label>
+                </li>
+
+               <li><span><input type="radio"  name="friend" value="Not sure"></span>
+               <label>Not sure</label>
+               </li>
+
+        </div><!--option--> 
+         <br>
+          
+        <div class="scolher">
+           <p>What is your favorite feature of freeCodeCamp?</p>
+           <br>
+           <input type="text" placeholder="challenges" list="sect"> 
+        
+           <datalist id="sect">
+              <option value="1">full time job</option>
+              <option value="2">full time learne</option>
+              <option value="3">peter not to say</option>
+              <option value="4">other</option> 
+           </datalist> 
+        
+        </div><!--scolher-->
+         <br>
+        <div class="finals">
+            <p>What would you like to see improved? (check all that apply)</p> 
+           
+       <ul>
+             <li><span><input type="checkbox"><label>Front-end Projects</label></span>
+             </li>
+
+              <li><span><input type="checkbox"><label>Back-end Projects</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label >Data Visualization</label></span>
+              </li>
+
+              <li><span><input type="checkbox"> <label>Challenges</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Open Source Community</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Gitter help rooms</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Videos</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>City Meeetups</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Wiki</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Forum</label></span>
+              </li>
+
+              <li><span><input type="checkbox"><label>Additional Courses</label></span>
+              </li>
+        </ul>
+            
+          </div><!--finales-->
+            <br>
+          <div class="fins">
+              <P> Anycoomments or suggestion</P>
+              <br>
+              <textarea name="Any" id="susggestion"  placeholder="Escreva aqui..."></textarea>
+              <br>
+              <br>
+             <button>Enviar formulario</button>
+        
+        </div>
+          
+
+</form><!--form-->
+
+
+
+
+    
+</body>
+</html>
